@@ -1,0 +1,280 @@
+*{
+    margin : 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 1px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px  20px;
+    border: 3px solid transparent;
+    transition: 0.6s ease;
+    position: relative;
+    
+}
+
+ul li a:hover{
+    background-color: beige;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: auto;
+    height: auto;
+}  
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-style: inherit;
+}
+
+.button{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: beige;
+    color: black;
+}
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.footer .footer-content{
+    display: inline-block;
+    color: black;
+    margin-left: 40%;    
+}
+
+/*ABOUT NATURE*/
+
+
+*{
+    margin : 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.maina{
+    background-color: lightgreen;
+}
+
+
+.header1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+
+}
+.logo{
+    margin-left: 15px;
+}
+
+.nav1{
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.ul1{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 700px;
+}
+
+.main1 .one{
+    border: 2px solid transparent;
+    padding: 30px 30px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.data1{
+    display: inline-block;
+}
+
+.data1 .two{
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    padding: auto;
+    margin: 20px;
+    margin-right: 750px;
+
+}
+
+.data1 img{
+    margin: 20px;
+    height: auto;
+    width: auto;
+    margin-left: 800px;
+    margin-top: -410px;
+}
+
+
+.data2 .three{
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    padding: auto;
+    margin: 20px;
+    margin-left: 675px;
+    padding: 10px;
+}
+
+.data2 img{
+    margin-top: -300px;
+    margin-left: 50px;
+    height: 375px;
+}
+
+.footer{
+    background-color: white;
+    position: relative;
+}
+
+
+/* GALLERY*/
+
+*{
+    margin : 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.maing{
+    background-color: lightgreen;
+}
+.header2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/bg.jpg);
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav1{
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.ul1{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 700px;
+}
+
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery :hover{
+    box-shadow: 10px 10px 30px rgba(56, 54, 54, 0.5);
+    transition: 0.6s ease;
+
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+}
+
+
+/*CONTACT*/
+
+*{
+    margin : 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.mainc{
+    background-color: lightgreen;
+    height: 130vh;
+}
+.header3{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/bg.jpg);
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact1{
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 40%;
+    font-size: 45px;
+}
+
+.contact2{
+    margin-top: 120px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+
+}
+
+form{
+    margin-top: 150px;
+    margin-left: 250px;
+    font-size: 20px;
+    box-sizing: 20px;
+    display: block;
+    color:black;
+}
